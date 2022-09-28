@@ -302,7 +302,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
   Widget _defaultSelectedItemWidget() {
     Widget defaultItemMultiSelectionMode(T item) {
       return Container(
-        height: 32,
+        height: 20,
         padding: EdgeInsets.only(left: 8, right: 1),
         margin: EdgeInsets.symmetric(horizontal: 2, vertical: 1),
         decoration: BoxDecoration(
